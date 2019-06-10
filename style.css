@@ -1,0 +1,37 @@
+body {
+    background: #051f31;
+}
+
+.pharagraph {
+    color: rgb(194, 26, 228);
+}
+
+.mainHeader {
+    font-weight: bold;
+    color: gold;
+}
+
+.sectionHeader {
+    color: rgb(247, 66, 66)
+}
+
+.diaryHeader {
+    color: rgb(73, 42, 64);
+    font-style: italic;
+    font-weight: 800;
+}
+
+.dailyHeader {
+    color: #424547;
+    font-weight: 700;
+}
+
+.nav {
+    color: black;
+    font-weight: bold;
+    background-color: gray;
+}
+
+.footer {
+    color: honeydew;
+}
