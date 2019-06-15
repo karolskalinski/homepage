@@ -3,40 +3,65 @@ body {
     color: #333;
 }
 
-.pharagraph {
-    color:1481BA
+.mainHeader, .diaryHeader {
+    color: #0471A6;
 }
 
 .mainHeader {
-    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+.sectionHeader, .dailyHeader {
     color: #0CAADC;
-}
-
-.sectionHeader {
-    color: rgb(247, 66, 66)
-}
-
-.diaryHeader {
-    color: rgb(73, 42, 64);
-    font-style: italic;
-    font-weight: 800;
-}
-
-.dailyHeader {
-    color: #424547;
-    font-weight: 700;
 }
 
 .nav {
     color: black;
-    font-weight: bold;
-    background-color: gray;
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 16px;
+    position: s
 }
 
 .footer {
-    color: honeydew;
+    margin-top: 45px;
+    margin-left: 10px;
 }
 
 .link {
-    color: #0CAADC;
+    color: #70A9A1;
+}
+
+.main {
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+}
+
+.top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+    color: #70A9A1;
+}
+
+.article__header {
+    margin-top: 46px;
+}
+
+.skalutki {
+    width: 100%;
+    max-width: 100px;
+    display: block;
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.about {
+    overflow: hidden;
 }
