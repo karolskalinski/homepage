@@ -11,24 +11,25 @@
 
 <body>
     <header class="nav">
-        <a class="link" href="../index.html">Strona główna</a>
-        <a class="link" href="article_1.html">Poniedziałek</a>
-        <a class="link" href="article_3.html">Środa</a>
-        <a class="link" href="article_4.html">Czwartek</a>
-        <a class="link" href="article_5.html">Piątek</a>
+        <a class="nav__link" href="../index.html">Strona główna</a>
+        <a class="nav__link" href="article_1.html">Poniedziałek</a>
+        <a class="nav__link" href="article_3.html">Środa</a>
+        <a class="nav__link" href="article_4.html">Czwartek</a>
+        <a class="nav__link" href="article_5.html">Piątek</a>
     </header>
-    <main>
-        <article>
+    <main class="main">
+        <article class="article">
             <header class="article__header">
                 <h1>Wtorek</h1>
             </header>
-            <p class="pharagraph">
+            <p class="article__pharagraph">
                 Paln na wtorek zakłada rozpoczęcie pracy nad zadaniem domowym. Niestety nie udało sie nic zrobić.
                 Okazało sie, że VSC złapał błąd, który powodował, że kursor automatycznie uciekał na ostatnią
                 linijke kodu. Błędu nie udało sie rozwiązać
             </p>
-            <footer>Autorem artykułu jest Karol<br />
-                <img src="../picture/lightning-4234254_1920.jpg" alt="Zdjecie przedstawiajace burzę wraz z piorunami">
+            <img src="../picture/lightning-4234254_1920.jpg" alt="Zdjecie przedstawiajace burzę wraz z piorunami"
+                class="article__img">
+            <footer class="article__footer">Autorem artykułu jest Karol
             </footer>
         </article>
     </main>
