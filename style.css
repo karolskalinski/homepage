@@ -1,6 +1,14 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
 body {
-    background: #fefefe;
-    color: #333;
+    background: rgb(133, 65, 127);
+    background: linear-gradient(346deg, rgba(133, 65, 127, 1) 0%, rgba(23, 145, 95, 1) 30%, rgba(0, 255, 252, 1) 100%);
     position: relative;
 }
 
