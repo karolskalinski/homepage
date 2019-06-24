@@ -80,7 +80,7 @@ body {
     margin-bottom: 10px;
 }
 
-.nav {
+.site__header {
     color: black;
     background: #fff;
     position: fixed;
@@ -91,9 +91,19 @@ body {
     padding: 16px;
 }
 
-.nav__link {
+.navigation__item {}
+
+.navigation__link {
     color: #70A9A1;
     text-decoration: none;
+}
+
+.navigation__list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start
 }
 
 .article {}
